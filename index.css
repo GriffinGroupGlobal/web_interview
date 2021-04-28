@@ -23,6 +23,20 @@ body {
  * class names defined here can be used if the design calls for
  * something not supported out of the box by Tailwind
 */
+
+	.collapse-container {
+	    display: flex;
+	    flex-flow: row wrap;
+	    align-content: space-between;
+	    justify-content: space-between;
+	}
+
+	.collapse-element {
+	    page-break-after: always;		
+	}
+
+
+
 @layer utilities {
   .progress-dot {
     width: 10px;
@@ -32,3 +46,5 @@ body {
     box-shadow: 0 0 0 7px #1DC29D;
   }
 }
+
+
