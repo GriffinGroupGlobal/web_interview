@@ -6,6 +6,8 @@ import CrossButton from "../CrossButton/CrossButton";
 
 const containerCN = (className) => cntl`
   min-w-0
+	pt-3
+	pb-3
   ${className}
 `;
 
@@ -54,6 +56,7 @@ const Input = ({
   isRequired,
 }) => {
   const onInputChange = ({ target: { value: newValue } }) => {
+	  console.log('new value::', newValue)
     onChange(newValue);
   };
 
