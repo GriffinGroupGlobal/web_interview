@@ -84,8 +84,7 @@ When you are comfortable with your results, please email your fork to
 
 Any specific notes or further information you would like to add about your submittal, should be included in the GitHub project.
 
-Do not feel as though you must create a public fork of this repository. You are free to create a throwaway GitHub account or private fork.
-In those cases, please let us know so that we may send you the GitHub IDs to add to the repository.
+You are free to use a throwaway GitHub account.
 
 ## Evaluations
 
